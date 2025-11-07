@@ -3,9 +3,10 @@ count= 0
 for num in Numbers_list:
     if num<=10:
         continue
-    print(f"Number greater than 10: {num}")
     count=+1
     print(f"Total numbers greater than 10: {count}")
+    print(f"Number greater than 10: {num}")
+    
 
  
  
